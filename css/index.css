@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Italic.ttf');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('../fonts/Dosis-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('../fonts/Dosis-Bold.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glyphicons';
+  src: url('../fonts/glyphicons-halflings-regular.ttf');
+}
+
+/*general*/
+html,body{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  background-color: #c9d8f0;
+}
+
+/*font styles*/
+h1 {
+  font-family: 'Dosis';
+  font-size: 24px;
+}
+
+.glyphicon {
+  font-size: 12px;
+}
+
+span.pull-right.glyphicon {
+    padding-right: 10px;
+}
+
+h2, .list-title {
+  font-family: 'Dosis';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h2.app-message{
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+h3, .{
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+h4{
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.h4>glyphicon{
+  font-size: 10px;
+}
+
+h4.secondary{
+  color: #A8B6CB;
+  font-weight: 400;
+}
+
+
+/*UI*/
+
+/*button*/
+.round-btn {
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 126px;
+    height: 126px;
+    background-color: #038C7F;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.round-btn>span {
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*button-nav*/
+.s-button-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.s-buttons-horizontal{
+  display: inline-block;
+}
+
+/*card*/
+.white-card{
+  background-color: white;
+  margin:10px;
+  padding: 20px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.55);
+}
+.white-card>h3{
+  color: #038C7F;
+}
+
+/*input*/
+input.s-form-control {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    /*placeholder text color: #C9D8F0;*/
+    border-bottom: 1px solid #A8B6CB;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+
+select.s-form-control {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: 0;
+    background: white;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/*menu*/
+.s-menu-horizontal {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #038c7f;
+}
+
+.s-menu-horizontal>li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    color: white;
+    font-weight: 900;
+}
+.s-menu-horizontal>li>a{
+  color: white;
+}
+
+/*lists*/
+.s-list-title {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #A8B6CB;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.55);
+}
+
+.s-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: white;
+}
+
+.s-list>li {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+
+.list-object-name {
+    font-weight: 900;
+}
+
+/*section*/
+
+.simple-bg {
+  background-color: #C9D8F0;
+  padding-top: 0;
+
+}
+.check-content {
+    background-color: #C9D8F0;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.center-message{
+  padding-bottom: 80px;
+  text-align: center;
+}
